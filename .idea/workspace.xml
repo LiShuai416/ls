@@ -2,106 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad3552c7-0eb8-4083-8d5d-53ced6422083" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-admin/ls-admin.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-admin/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-admin/src/main/java/com/ls/LsApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-admin/src/main/resources/META-INF/spring-devtools.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-admin/src/main/resources/application-druid.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-admin/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-admin/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-admin/src/main/resources/mybatis/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-common/ls-common.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-common/src/main/java/com/ls/common/config/LsConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-common/src/main/java/com/ls/common/constant/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-common/src/main/java/com/ls/common/constant/HttpStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-common/src/main/java/com/ls/common/constant/UserConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-common/src/main/java/com/ls/common/core/controller/BaseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-common/src/main/java/com/ls/common/core/domain/AjaxResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-common/src/main/java/com/ls/common/core/domain/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-common/src/main/java/com/ls/common/core/domain/TreeEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-common/src/main/java/com/ls/common/core/domain/TreeSelect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-common/src/main/java/com/ls/common/core/domain/entity/SysDept.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-common/src/main/java/com/ls/common/core/domain/entity/SysDictData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-common/src/main/java/com/ls/common/core/domain/entity/SysDictType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-common/src/main/java/com/ls/common/core/domain/entity/SysMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-common/src/main/java/com/ls/common/core/domain/entity/SysRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-common/src/main/java/com/ls/common/core/domain/entity/SysUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-common/src/main/java/com/ls/common/core/domain/model/LoginBody.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-common/src/main/java/com/ls/common/core/domain/model/LoginUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-common/src/main/java/com/ls/common/core/domain/model/RegisterBody.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-common/src/main/java/com/ls/common/core/page/PageDomain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-common/src/main/java/com/ls/common/core/page/TableDataInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-common/src/main/java/com/ls/common/core/page/TableSupport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-common/src/main/java/com/ls/common/core/redis/RedisCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-common/src/main/java/com/ls/common/core/text/CharsetKit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-common/src/main/java/com/ls/common/core/text/Convert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-common/src/main/java/com/ls/common/core/text/StrFormatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-common/src/main/java/com/ls/common/enums/BusinessStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-common/src/main/java/com/ls/common/enums/BusinessType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-common/src/main/java/com/ls/common/enums/DataSourceType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-common/src/main/java/com/ls/common/enums/HttpMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-common/src/main/java/com/ls/common/enums/LimitType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-common/src/main/java/com/ls/common/enums/OperatorType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-common/src/main/java/com/ls/common/enums/UserStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-common/src/main/java/com/ls/common/exception/DemoModeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-common/src/main/java/com/ls/common/exception/GlobalException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-common/src/main/java/com/ls/common/exception/ServiceException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-common/src/main/java/com/ls/common/exception/UtilException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-common/src/main/java/com/ls/common/exception/base/BaseException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-common/src/main/java/com/ls/common/exception/file/FileException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-common/src/main/java/com/ls/common/exception/file/FileNameLengthLimitExceededException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-common/src/main/java/com/ls/common/exception/file/FileSizeLimitExceededException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-common/src/main/java/com/ls/common/exception/file/InvalidExtensionException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-common/src/main/java/com/ls/common/exception/job/TaskException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-common/src/main/java/com/ls/common/exception/user/CaptchaException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-common/src/main/java/com/ls/common/exception/user/CaptchaExpireException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-common/src/main/java/com/ls/common/exception/user/UserException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-common/src/main/java/com/ls/common/exception/user/UserPasswordNotMatchException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-common/src/main/java/com/ls/common/utils/Arith.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-common/src/main/java/com/ls/common/utils/DateUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-common/src/main/java/com/ls/common/utils/DictUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-common/src/main/java/com/ls/common/utils/ExceptionUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-common/src/main/java/com/ls/common/utils/LogUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-common/src/main/java/com/ls/common/utils/MessageUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-common/src/main/java/com/ls/common/utils/SecurityUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-common/src/main/java/com/ls/common/utils/ServletUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-common/src/main/java/com/ls/common/utils/StringUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-common/src/main/java/com/ls/common/utils/Threads.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-common/src/main/java/com/ls/common/utils/VerifyCodeUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-common/src/main/java/com/ls/common/utils/bean/BeanUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-common/src/main/java/com/ls/common/utils/bean/BeanValidators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-common/src/main/java/com/ls/common/utils/file/FileTypeUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-common/src/main/java/com/ls/common/utils/file/FileUploadUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-common/src/main/java/com/ls/common/utils/file/FileUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-common/src/main/java/com/ls/common/utils/file/ImageUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-common/src/main/java/com/ls/common/utils/file/MimeTypeUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-common/src/main/java/com/ls/common/utils/html/EscapeUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-common/src/main/java/com/ls/common/utils/html/HTMLFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-common/src/main/java/com/ls/common/utils/http/HttpHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-common/src/main/java/com/ls/common/utils/http/HttpUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-common/src/main/java/com/ls/common/utils/ip/AddressUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-common/src/main/java/com/ls/common/utils/ip/IpUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-common/src/main/java/com/ls/common/utils/poi/ExcelHandlerAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-common/src/main/java/com/ls/common/utils/poi/ExcelUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-common/src/main/java/com/ls/common/utils/reflect/ReflectUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-common/src/main/java/com/ls/common/utils/sign/Base64.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-common/src/main/java/com/ls/common/utils/sign/Md5Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-common/src/main/java/com/ls/common/utils/spring/SpringUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-common/src/main/java/com/ls/common/utils/sql/SqlUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-common/src/main/java/com/ls/common/utils/uuid/IdUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-common/src/main/java/com/ls/common/utils/uuid/UUID.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-framework/ls-framework.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-framework/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-system/ls-system.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls-system/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ls.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,17 +56,34 @@
       <updated>1640831928722</updated>
       <workItem from="1640831934036" duration="9000" />
       <workItem from="1640856200989" duration="259000" />
+      <workItem from="1640856504243" duration="513000" />
     </task>
+    <task id="LOCAL-00001" summary="初始化项目">
+      <created>1640856776764</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1640856776764</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="初始化项目" />
+    <option name="LAST_COMMIT_MESSAGE" value="初始化项目" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="179" key="#Notifications" timestamp="1640856235802">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="179" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1640856235802" />
+    <state x="560" y="113" key="CommitChangelistDialog2" timestamp="1640856775642">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="560" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1640856775642" />
     <state x="810" y="420" key="Gitee.ShareDialog" timestamp="1640856651384">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
