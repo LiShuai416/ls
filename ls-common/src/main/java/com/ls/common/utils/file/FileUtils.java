@@ -1,6 +1,6 @@
 package com.ls.common.utils.file;
 
-import com.ls.common.config.lsConfig;
+import com.ls.common.config.LsConfig;
 import com.ls.common.utils.DateUtils;
 import com.ls.common.utils.StringUtils;
 import com.ls.common.utils.uuid.IdUtils;
@@ -67,7 +67,7 @@ public class FileUtils
      */
     public static String writeImportBytes(byte[] data) throws IOException
     {
-        return writeBytes(data, lsConfig.getImportPath());
+        return writeBytes(data, LsConfig.getImportPath());
     }
 
     /**

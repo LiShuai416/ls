@@ -1,6 +1,6 @@
 package com.ls.common.utils.file;
 
-import com.ls.common.config.lsConfig;
+import com.ls.common.config.LsConfig;
 import com.ls.common.constant.Constants;
 import com.ls.common.utils.StringUtils;
 import org.apache.poi.util.IOUtils;
@@ -60,7 +60,7 @@ public class ImageUtils
     /**
      * 读取文件为字节数据
      * 
-     * @param key 地址
+     * @param url 地址
      * @return 字节数据
      */
     public static byte[] readFile(String url)
@@ -82,7 +82,7 @@ public class ImageUtils
             else
             {
                 // 本机地址
-                String localPath = lsConfig.getProfile();
+                String localPath = LsConfig.getProfile();
                 String downloadPath = localPath + StringUtils.substringAfter(url, Constants.RESOURCE_PREFIX);
                 in = new FileInputStream(downloadPath);
             }

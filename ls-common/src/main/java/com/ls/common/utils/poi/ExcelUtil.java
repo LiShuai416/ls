@@ -4,7 +4,7 @@ import com.ls.common.annotation.Excel;
 import com.ls.common.annotation.Excel.ColumnType;
 import com.ls.common.annotation.Excel.Type;
 import com.ls.common.annotation.Excels;
-import com.ls.common.config.lsConfig;
+import com.ls.common.config.LsConfig;
 import com.ls.common.core.domain.AjaxResult;
 import com.ls.common.core.text.Convert;
 import com.ls.common.exception.UtilException;
@@ -327,7 +327,7 @@ public class ExcelUtil<T>
                         }
                         else if (StringUtils.isNotEmpty(attr.dictType()))
                         {
-                            val = reverseDictByExp(Convert.toStr(val), attr.dictType(), attr.separator());
+//                            val = reverseDictByExp(Convert.toStr(val), attr.dictType(), attr.separator());
                         }
                         else if (!attr.handler().equals(ExcelHandlerAdapter.class))
                         {
@@ -782,7 +782,7 @@ public class ExcelUtil<T>
                 }
                 else if (StringUtils.isNotEmpty(dictType) && StringUtils.isNotNull(value))
                 {
-                    cell.setCellValue(convertDictByExp(Convert.toStr(value), dictType, separator));
+//                    cell.setCellValue(convertDictByExp(Convert.toStr(value), dictType, separator));
                 }
                 else if (value instanceof BigDecimal && -1 != attr.scale())
                 {
@@ -938,31 +938,31 @@ public class ExcelUtil<T>
         return StringUtils.stripEnd(propertyString.toString(), separator);
     }
 
-    /**
-     * 解析字典值
-     * 
-     * @param dictValue 字典值
-     * @param dictType 字典类型
-     * @param separator 分隔符
-     * @return 字典标签
-     */
-    public static String convertDictByExp(String dictValue, String dictType, String separator)
-    {
-        return DictUtils.getDictLabel(dictType, dictValue, separator);
-    }
-
-    /**
-     * 反向解析值字典值
-     * 
-     * @param dictLabel 字典标签
-     * @param dictType 字典类型
-     * @param separator 分隔符
-     * @return 字典值
-     */
-    public static String reverseDictByExp(String dictLabel, String dictType, String separator)
-    {
-        return DictUtils.getDictValue(dictType, dictLabel, separator);
-    }
+//    /**
+//     * 解析字典值
+//     *
+//     * @param dictValue 字典值
+//     * @param dictType 字典类型
+//     * @param separator 分隔符
+//     * @return 字典标签
+//     */
+//    public static String convertDictByExp(String dictValue, String dictType, String separator)
+//    {
+//        return DictUtils.getDictLabel(dictType, dictValue, separator);
+//    }
+//
+//    /**
+//     * 反向解析值字典值
+//     *
+//     * @param dictLabel 字典标签
+//     * @param dictType 字典类型
+//     * @param separator 分隔符
+//     * @return 字典值
+//     */
+//    public static String reverseDictByExp(String dictLabel, String dictType, String separator)
+//    {
+//        return DictUtils.getDictValue(dictType, dictLabel, separator);
+//    }
 
     /**
      * 数据处理器
@@ -1048,7 +1048,7 @@ public class ExcelUtil<T>
      */
     public String getAbsoluteFile(String filename)
     {
-        String downloadPath = lsConfig.getDownloadPath() + filename;
+        String downloadPath = LsConfig.getDownloadPath() + filename;
         File desc = new File(downloadPath);
         if (!desc.getParentFile().exists())
         {

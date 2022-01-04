@@ -1,7 +1,7 @@
 package com.ls.common.utils.ip;
 
 import com.alibaba.fastjson.JSONObject;
-import com.ls.common.config.lsConfig;
+import com.ls.common.config.LsConfig;
 import com.ls.common.constant.Constants;
 import com.ls.common.utils.StringUtils;
 import com.ls.common.utils.http.HttpUtils;
@@ -31,7 +31,7 @@ public class AddressUtils
         {
             return "内网IP";
         }
-        if (lsConfig.isAddressEnabled())
+        if (LsConfig.isAddressEnabled())
         {
             try
             {

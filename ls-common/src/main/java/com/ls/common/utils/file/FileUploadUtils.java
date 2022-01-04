@@ -1,6 +1,6 @@
 package com.ls.common.utils.file;
 
-import com.ls.common.config.lsConfig;
+import com.ls.common.config.LsConfig;
 import com.ls.common.constant.Constants;
 import com.ls.common.exception.file.FileNameLengthLimitExceededException;
 import com.ls.common.exception.file.FileSizeLimitExceededException;
@@ -34,7 +34,7 @@ public class FileUploadUtils
     /**
      * 默认上传的地址
      */
-    private static String defaultBaseDir = lsConfig.getProfile();
+    private static String defaultBaseDir = LsConfig.getProfile();
 
     public static void setDefaultBaseDir(String defaultBaseDir)
     {
@@ -144,7 +144,7 @@ public class FileUploadUtils
 
     public static final String getPathFileName(String uploadDir, String fileName) throws IOException
     {
-        int dirLastIndex = lsConfig.getProfile().length() + 1;
+        int dirLastIndex = LsConfig.getProfile().length() + 1;
         String currentDir = StringUtils.substring(uploadDir, dirLastIndex);
         String pathFileName = Constants.RESOURCE_PREFIX + "/" + currentDir + "/" + fileName;
         return pathFileName;

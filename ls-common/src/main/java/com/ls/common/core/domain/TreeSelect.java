@@ -2,7 +2,6 @@ package com.ls.common.core.domain;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.ls.common.core.domain.entity.SysDept;
-import com.ls.common.core.domain.entity.SysMenu;
 
 import java.io.Serializable;
 import java.util.List;
@@ -39,12 +38,12 @@ public class TreeSelect implements Serializable
         this.children = dept.getChildren().stream().map(TreeSelect::new).collect(Collectors.toList());
     }
 
-    public TreeSelect(SysMenu menu)
-    {
-        this.id = menu.getMenuId();
-        this.label = menu.getMenuName();
-        this.children = menu.getChildren().stream().map(TreeSelect::new).collect(Collectors.toList());
-    }
+//    public TreeSelect(SysMenu menu)
+//    {
+//        this.id = menu.getMenuId();
+//        this.label = menu.getMenuName();
+//        this.children = menu.getChildren().stream().map(TreeSelect::new).collect(Collectors.toList());
+//    }
 
     public Long getId()
     {
